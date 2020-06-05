@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:orientation="vertical"
+    android:background="#FF0000">
+
+    <TextView
+        android:id="@+id/ic_titleMenu"
+        android:text="I-Koin"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+    <ImageView
+        android:id="@+id/ic_profil"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_toEndOf="@+id/ic_titleMenu"
+        android:layout_toRightOf="@+id/ic_titleMenu"
+        android:rotation="180"
+        android:src="@drawable/editprofil" />
+
+
+
+</RelativeLayout>

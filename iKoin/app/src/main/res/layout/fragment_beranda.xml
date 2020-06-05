@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".main.Beranda">
+    <LinearLayout
+        android:paddingTop="45sp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+        android:paddingTop="5sp"
+        android:background="@drawable/text_block_border"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#03A9F4"
+                android:orientation="vertical"
+                android:layout_marginBottom="5sp"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                >
+        <ImageView
+            android:id="@+id/imgAvatar"
+            android:src="@drawable/mainprofil"
+            android:layout_weight="1"
+            android:layout_width="70sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="60sp" />
+        <TextView
+            android:id="@+id/TxtNama"
+            android:paddingTop="10sp"
+            android:text="Martina Amirull Hady"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/TxtBatas2"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="5sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/TxtNoHp"
+            android:paddingTop="10sp"
+            android:padding="10sp"
+            android:text="085959793902"
+            android:background="@drawable/image_border2"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/TxtBatas3"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="5sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/TxtBatas4"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <include layout="@layout/content_beranda"/>
+        <TextView
+            android:id="@+id/TxtBatas5"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/TxtSaldo"
+            android:paddingTop="10sp"
+            android:paddingRight="50sp"
+            android:paddingLeft="50sp"
+            android:paddingBottom="10sp"
+            android:text="Saldo Rp. 350.000"
+            android:background="@drawable/image_border"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
